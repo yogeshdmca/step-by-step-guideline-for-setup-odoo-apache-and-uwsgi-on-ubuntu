@@ -22,4 +22,9 @@ sudo git clone https://www.github.com/odoo/odoo --depth 1 --branch 10.0 --single
 virtualenv .env
 
 source .env/bin/activate
+
+pip install -r requirements.txt
+
+./odoo-bin
+
 ```
